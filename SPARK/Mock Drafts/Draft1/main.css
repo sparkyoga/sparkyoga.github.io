@@ -1,0 +1,153 @@
+/*-----------------------------------------------------------
+        Font Collection
+/*-----------------------------------------------------------*/
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Economica', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+*/
+
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+}
+html{
+    /*
+    
+    border: 3px solid black;
+    */
+    
+    
+}
+.big{
+    
+    
+}
+.title-top{
+   
+}
+.title-top h1{
+    
+}
+.navigation{
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-family: 'Julius Sans One', sans-serif;*/
+    /*font-family: 'Economica', sans-serif;*/
+    /*font-family: 'Amatic SC', sans-serif;*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    height: 50px;
+    font-size: 21px;
+    font-weight: 100;
+    float: left;
+    width: 100%;
+    text-align: right;
+    border-bottom: 2px solid black;
+    background-color:rgba(255,255,255,0.8);
+}
+.navigation a{
+    margin-top: 10px;
+    float: right;
+    width: 10%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.navigation a:hover{
+   color: slategrey;
+}
+
+.spark{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.spark h1{
+    font-weight: 500; 
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+.spark p{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+    text-align: right;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.slideshow{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+.slideshow p{
+    float: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 22px;
+    
+}
+.slideshow img{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    border-radius: 3px;
+}
+
+.footer1{
+    margin-top: 20px;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.footer1 h2{
+    margin-top: 20px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    padding-bottom: 20px;   
+}
+
+.footer2{
+    margin-top: 20px;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    height: 100px;
+}
+.footer2 p{
+    float: left;
+    margin-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    width: 80%;  
+}
+.footer2 img{
+    float: right;;
+    margin-top: 10px;
+    opacity: 0.7;
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+}

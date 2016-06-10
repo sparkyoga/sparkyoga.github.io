@@ -1,0 +1,172 @@
+/*-----------------------------------------------------------
+        Font Collection
+/*-----------------------------------------------------------*/
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Economica', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    height: 120px;
+    font-size: 60px;
+    width: 35%;
+    float: left;
+    margin-left: 0%;
+    text-align: center;
+    font-family: 'Amatic SC', serif;
+    border-bottom: 2px solid black;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.title{
+    font-family: 'Amatic SC', serif;
+    height: 120px;
+    font-weight: 100;
+    float: left;
+    width: 65%;
+    background-color:rgba(255,255,255,0.5);
+    border-bottom: 2px solid black;
+}
+.title h1{
+    font-size: 60px;
+    width: 35%;
+    float: left;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.title a{
+    float: right;
+    width: 10%;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top{
+    float:left;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.top h1{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+.individualClass{
+    padding: 2%;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 40px;
+       background-color: whitesmoke;
+    /*box-shadow: 10px 10px 10px #888888;*/
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  
+    -moz-box-shadow: 3px 3px 5px 6px #ccc; 
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.individualClass h1{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+}
+.individualClass h2{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: slategrey;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.individualClass p{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.individualClass ul{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navigation2{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 35%;
+    font-family: 'Amatic SC', cursive;
+    background-color:lightgrey;
+}
+.navigation2 a{
+    margin-top: 10px;
+    float: left;
+    width: 10%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.navigation2 a:hover{
+   color: slategrey;
+}
+
+.footer2{
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+}
+.footer2 p{
+    float: left;
+    margin-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    font-weight: 100;
+    width: 80%;
+    margin-left: 5%;
+}
+.footer2 img{
+    float: right;;
+    margin-top: 50px;
+    opacity: 0.7;
+    height: 50px;
+    width: 50px;
+    margin-right: 3%;
+}
+
+

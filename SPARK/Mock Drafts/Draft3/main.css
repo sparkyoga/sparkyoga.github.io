@@ -1,0 +1,132 @@
+/*-----------------------------------------------------------
+        Font Collection
+/*-----------------------------------------------------------*/
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Economica', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+}
+html{
+    /*
+    
+    border: 3px solid black;
+    */
+    
+    
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+    font-weight: 100;
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(255,255,255,0.5);
+}
+.title h1{
+    font-weight: 300;
+    width: 45%;
+    float: left;
+    font-size: 78px;
+    margin-top: 30px;
+}
+.title h2{
+    font-weight: 100;
+    width: 9%;
+    float: left;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.studio{
+    float: left;
+    margin-top: 30px;
+    width: 75%;
+    margin-left: 12.5%;
+    
+}
+
+.studio img{
+    width: 100%;
+    height: 500px;
+}
+
+.spark{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.spark p{
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    font-size: 32px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 3px solid black;
+}
+
+.announcements{
+    background-color: black;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    width: 100%;
+    color: white;
+}
+.announcements h1{
+    float: left;
+    font-size: 52px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+.announcements p{
+    float: left;
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.footer2{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+.footer2 p{
+    float: left;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    margin-left: 5%;
+}
+.footer2 img{
+    float: right;;
+    margin-top: 50px;
+    opacity: 0.9;
+    height: 50px;
+    width: 50px;
+    margin-right: 3%;
+}
