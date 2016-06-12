@@ -21,7 +21,7 @@ font-family: 'Raleway', sans-serif;
 .logo{
     height: 120px;
     font-size: 60px;
-    width: 35%;
+    width: 25%;
     float: left;
     margin-left: 0%;
     text-align: center;
@@ -37,7 +37,7 @@ font-family: 'Raleway', sans-serif;
     height: 120px;
     font-weight: 100;
     float: left;
-    width: 65%;
+    width: 75%;
     background-color:rgba(255,255,255,0.5);
 }
 .title h1{
@@ -57,7 +57,10 @@ font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 20px;
 }
-
+.title a:hover{
+    opacity: 0.6;
+    color: orangered;
+}
 .top{
     float:left;
     width: 100%;
@@ -206,31 +209,43 @@ div.individualClass.show {
 }
 
 .footer2{
-    margin-top: 0px;
+    margin-top: 40px;
     float: left;
-    width: 100%;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     height: 150px;
     background-color: white;
 }
 .footer2 p{
     float: left;
     margin-top: 50px;
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Amatic SC', fantasy;
     font-size: 24px;
     font-weight: 100;
     width: 80%;
     margin-left: 5%;
 }
-.footer2 img{
-    float: right;;
-    margin-top: 50px;
-    opacity: 1.0;
-    height: 50px;
-    width: 50px;
-    margin-right: 3%;
+.social-media{
+    width: 15%;
+    float: left;
 }
-.footer2 img:hover{
-    opacity: 0.7;
+.footer2 a{
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+}
+.footer2 img{
+    /*float: right;
+    margin-top: 50px;*/
+    opacity: 0.9;
+    height: 50px;
+    width: 50%;
+    /*margin-right: 1%;*/
+}
+
+.footer2 a:hover{
+    opacity: 0.6;
 }
 
 
