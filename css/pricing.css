@@ -69,6 +69,53 @@ font-family: 'Lato', sans-serif;
     color: black;
     
 }
+.about-content{
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+    font-family: 'Lato';
+    color: black;
+    border-right: 3px solid white;
+}
+.about-content h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    border-bottom: 3px solid white;
+}
+.about-content p{
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Lato';
+    margin-top: 30px;
+}
+.faq-content{
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+    font-family: 'Lato';
+    color: black;
+    border-right: 3px solid white;
+}
+.faq-content h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    border-bottom: 3px solid white;
+}
+.faq-content h2{
+    margin-top: 20px;
+    font-size: 22px;
+    color: orangered;
+    text-shadow: 1px 1px black;
+    
+}
+.faq-content p{
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Lato';
+    margin-top: 10px;
+}
 .pricing{
     float: left;
     width: 60%;
@@ -81,6 +128,7 @@ font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 50px;
     font-weight: 500;
+    border-bottom: 3px solid white;
 }
 .pricing h2{
     width: 100%;

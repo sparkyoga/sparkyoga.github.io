@@ -3,6 +3,9 @@
         width: 100%;
     }
     .pricing{
+        width: 85%;
+        margin-left: 15%;
+        margin-right: 0%;
         border-right: none;
     }
 }
