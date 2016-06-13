@@ -61,6 +61,74 @@ font-family: 'Lato', sans-serif;
     opacity: 0.6;
     color: orangered;
 }
+.pricing-parent{
+    float: left;
+    width: 100%;
+    font-family: 'Lato';
+    background-color:rgba(255,255,255,0.5);
+    color: black;
+    
+}
+.pricing{
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+    font-family: 'Lato';
+    color: black;
+    border-right: 3px solid white;
+}
+.pricing h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+.pricing h2{
+    margin-left: 10%;
+    width: 50%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+    font-family: 'Lato';
+}
+.pricing h3{
+    margin-left: 10%;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+.pricing h4{
+    margin-left: 10%;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    font-size: 16px;
+    font-family: 'Lato';
+    margin-bottom: 30px;
+}
+.pricing p{
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.special{
+    float: left;
+    width: 25%;
+}
+.big{
+    background-image: url("backgrounds/image15.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+
 .footer2{
     margin-top: 40px;
     float: left;
