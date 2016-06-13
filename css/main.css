@@ -77,7 +77,8 @@ html{
 }
 
 .navigation a:hover{
-   color: slategrey;
+    opacity: 0.8;
+    color: orangered;
 }
 .navigation2{
     /*font-family: 'Lato', sans-serif;*/
@@ -104,7 +105,8 @@ html{
 }
 
 .navigation2 a:hover{
-   color: slategrey;
+    opacity: 0.8;
+    color: orangered;
 }
 
 .newsletter{
@@ -127,7 +129,9 @@ html{
     width: 100%;
     color: black;
     text-shadow: 1px 1px black;
-    
+}
+.newsletter a:hover{
+    color: orangered;
 }
 
 .announcements{
@@ -142,12 +146,18 @@ html{
     text-align: center;
     width: 100%;
 }
-.announcements p{
+.announcements a{
+    text-decoration: none;
+    color: black;
     float: left;
     font-size: 26px;
     font-family: 'Amatic SC', fantasy;
     text-align: center;
     width: 100%;
+}
+.announcements a:hover{
+    opacity: 0.8;
+    color: orangered;
 }
 .footer1{
     margin-top: 20px;

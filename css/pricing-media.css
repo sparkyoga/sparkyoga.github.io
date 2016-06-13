@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+    .navigation a{
+        margin-top: 10px;
+        width: 20%;
+    }
+    .social-media{
+        width: 16%;
+        margin-left: 42%;
+    }
+    .social-media img{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 700px) {
+    
+}
+@media screen and (max-width: 600px) {
+    .social-media{
+        width: 45%;
+        margin-left: 22.5%;
+    }
+    .social-media a{
+        
+    }
+    .social-media img{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
