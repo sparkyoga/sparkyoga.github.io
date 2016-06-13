@@ -1,5 +1,12 @@
 @media screen and (max-width: 950px) {
-     .special{
+    .title a{
+        width: 15%;
+    }
+    .navigation a{
+        margin-top: 10px;
+        width: 20%;
+    }
+    .special{
         width: 100%;
     }
     .pricing{
@@ -20,6 +27,18 @@
     }
     .social-media img{
         width: 75%;
+    }
+    .logo{
+        width: 100%;
+        height: 60px;
+    }
+    .title{
+        width: 100%;
+        height: 50px;
+        padding-bottom: 10px;
+    }
+    .title a{
+        width: 20%;
     }
    
 }

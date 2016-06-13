@@ -2,7 +2,7 @@
     .title a{
         width: 15%;
     }
-        .navigation a{
+    .navigation a{
         margin-top: 10px;
         width: 20%;
     }
@@ -52,8 +52,9 @@
         margin-right: 5%;
         margin-bottom: 10px;
         max-height: 0px;
-        overflow: hidden;
+        overflow: scroll;
         transition: 0.6s ease-in-out;
+        border-radius: 10px;
     }
     
 }
