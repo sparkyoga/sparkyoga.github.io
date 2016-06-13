@@ -15,6 +15,9 @@
         margin-right: 0%;
         border-right: none;
     }
+    .pricing h1{
+        border-bottom: none;
+    }
 }
 @media screen and (max-width: 800px) {
     .navigation a{
@@ -57,4 +60,11 @@
         width: 50%;
         margin-left: 25%;
     }
+    .pricing{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    
 }
