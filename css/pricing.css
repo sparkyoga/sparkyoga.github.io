@@ -83,8 +83,7 @@ font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
 .pricing h2{
-    margin-left: 10%;
-    width: 50%;
+    width: 100%;
     text-align: left;
     font-size: 30px;
     font-weight: 500;
@@ -92,14 +91,12 @@ font-family: 'Lato', sans-serif;
     font-family: 'Lato';
 }
 .pricing h3{
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
     font-size: 25px;
     font-weight: 500;
     font-family: 'Lato';
 }
 .pricing h4{
-    margin-left: 10%;
     width: 80%;
     font-size: 25px;
     font-weight: 500;
@@ -111,15 +108,43 @@ font-family: 'Lato', sans-serif;
     margin-bottom: 30px;
 }
 .pricing p{
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
     font-size: 20px;
     font-family: 'Lato';
 }
 .special{
     float: left;
     width: 25%;
+    font-family: 'Amatic SC', sans-serif;
+    text-align: center;
+    border-left: 3px solid white;
+    margin-left: -3px;
 }
+.special a{
+    text-decoration: none;
+    color: black;
+}
+.special a:hover{
+    opacity: 0.8;
+    color: orangered;
+}
+.special h1{
+    width: 100%;
+    font-size: 60px;
+}
+.special h2{
+    width: 100%;
+    font-size: 55px;
+}
+.special h3{
+    width: 100%;
+    font-size: 45px;
+}
+.special h4{
+    width: 100%;
+    font-size: 45px;
+}
+
 .big{
     background-image: url("backgrounds/image15.jpg");
     background-size: cover;
