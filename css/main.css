@@ -198,7 +198,6 @@ html{
     font-weight: 100;
     width: 80%;
     margin-left: 5%;
-    text-decoration: none;
 }
 .social-media{
     width: 15%;
@@ -208,6 +207,13 @@ html{
     float: right;
     margin-top: 50px;
     width: 50%;
+    
+}
+.footer2 p a{
+    text-decoration: none;
+    margin-top: 0px;
+    width: 58%;
+    color: black;
 }
 .footer2 img{
     /*float: right;
