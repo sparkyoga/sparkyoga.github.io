@@ -74,6 +74,7 @@ html{
     text-decoration: none;
     color: black;
     text-align: center;
+    font-weight: 600;
 }
 
 .navigation a:hover{
