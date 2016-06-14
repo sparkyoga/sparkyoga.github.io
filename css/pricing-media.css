@@ -9,6 +9,9 @@
     .special{
         width: 100%;
     }
+    .special2{
+        display: none;
+    }
     .pricing{
         width: 85%;
         margin-left: 15%;
@@ -95,6 +98,10 @@
         margin-left: 7.5%;
         margin-right: 0%;
         border-right: none;
+    }
+    .faq-content img{
+        width: 20%; 
+        margin-top: 5px;
     }
     
 }
