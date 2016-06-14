@@ -90,7 +90,7 @@ html{
     height: 50px;
     font-size: 24px;
     font-weight: 100;
-    padding-left: 35%;
+    padding-left: 20%;
     float: left;
     width: 100%;
     border-top: 4px solid white;
@@ -99,10 +99,11 @@ html{
 .navigation2 a{
     margin-top: 10px;
     float: left;
-    width: 10%;
+    width: 20%;
     text-decoration: none;
     color: black;
     text-align: center;
+    font-weight: 600;
 }
 
 .navigation2 a:hover{
