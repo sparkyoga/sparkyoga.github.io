@@ -18,6 +18,24 @@
     .pricing h1{
         border-bottom: none;
     }
+    .faq-content{
+        width: 85%;
+        margin-left: 15%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .faq-content h1{
+        border-bottom: none;
+    }
+    .about-content{
+        width: 85%;
+        margin-left: 15%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .about-content h1{
+        border-bottom: none;
+    }
 }
 @media screen and (max-width: 800px) {
     .navigation a{
@@ -61,6 +79,18 @@
         margin-left: 25%;
     }
     .pricing{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .faq-content{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .about-content{
         width: 85%;
         margin-left: 7.5%;
         margin-right: 0%;
