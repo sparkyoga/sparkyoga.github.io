@@ -210,6 +210,30 @@ font-family: 'Lato', sans-serif;
     float: left;
     width: 100%;
 }
+.big1{
+    background-image: url("backgrounds/image11.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+.big2{
+    background-image: url("backgrounds/image14.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+.big3{
+    background-image: url("backgrounds/image11.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
 
 .footer2{
     margin-top: 40px;
