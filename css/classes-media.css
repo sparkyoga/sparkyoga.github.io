@@ -1,17 +1,6 @@
-@media screen and (max-width: 800px) {
-    .title a{
-        width: 15%;
-    }
-    .navigation a{
-        margin-top: 10px;
-        width: 20%;
-    }
-    .social-media{
-        width: 16%;
-        margin-left: 42%;
-    }
-    .social-media img{
-        width: 75%;
+@media screen and (max-width: 1000px) {
+    body{
+        height: 700px;
     }
 }
 @media screen and (max-width: 700px) {
@@ -27,34 +16,56 @@
     .title a{
         width: 20%;
     }
+    body{
+        height: 700px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    
-    .social-media{
-        width: 45%;
-        margin-left: 22.5%;
+    body{
+        height: 700px;
     }
-    .social-media a{
+    .parent-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    .fixed{
+        width: 100%;
+    }
+    .navigation a{
+        font-size: 16px;
+    }
+    .dropbtn {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+    .accordion{
+        width: 85%;
+        margin-left: 7.5%;
         
     }
-    .social-media img{
-        width: 50%;
-        margin-left: 25%;
-    }
-    .newsletter{
-        width: 60%;
-    }
     .individualClass{
-        padding: 2%;
+        padding: 0%;
+        width: 85%;
+        margin-left: 7.5%;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .individualClass h2{
         width: 90%;
-        margin-left: 3%;
+        margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 10px;
-        max-height: 0px;
-        overflow: scroll;
-        transition: 0.6s ease-in-out;
-        border-radius: 10px;
+    }
+    .individualClass h1{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .individualClass p{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
 }

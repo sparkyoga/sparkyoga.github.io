@@ -1,0 +1,256 @@
+/*-----------------------------------------------------------
+        Font Collection
+/*-----------------------------------------------------------*/
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Economica', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    height: 120px;
+    font-size: 60px;
+    width: 25%;
+    float: left;
+    margin-left: 0%;
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    font-family: 'Amatic SC', sans-serif;
+    height: 120px;
+    font-weight: 100;
+    float: left;
+    width: 75%;
+    background-color:rgba(255,255,255,0.5);
+}
+.title h1{
+    font-size: 60px;
+    width: 35%;
+    float: left;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.title a{
+    float: right;
+    width: 10%;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.title a:hover{
+    opacity: 0.6;
+    color: orangered;
+}
+.top{
+    float:left;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.top h1{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+}
+.accordion{
+    width: 64%;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.accordion button {
+    background-color: white;/*#eee;*/
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    transition: 0.4s;
+    border: none;
+    outline: none;
+    height: 60px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: whitesmoke;/*#ddd;*/
+    cursor: pointer;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 23px;
+    padding-right: 2%;
+    color: #777;
+    margin-top: 8px;
+    float: right;
+}
+button.accordion.active:after {
+    content: "\2796";
+    cursor: pointer;
+}
+
+div.individualClass.show {
+    opacity: 1.0;
+    max-height: 3500px;  
+}
+.individualClass{
+    padding: 2%;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+.individualClass h1{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+}
+.individualClass h2{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: slategrey;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.individualClass p{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.individualClass ul{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navigation2{
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 35%;
+    font-family: 'Amatic SC', sans-serif;
+    background-color:white;
+}
+.navigation2 a{
+    margin-top: 10px;
+    float: left;
+    width: 10%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.navigation2 a:hover{
+   color: slategrey;
+}
+
+.footer2{
+    margin-top: 40px;
+    float: left;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 150px;
+    background-color: white;
+}
+.footer2 p{
+    float: left;
+    margin-top: 50px;
+    font-family: 'Amatic SC', fantasy;
+    font-size: 24px;
+    font-weight: 100;
+    width: 80%;
+    margin-left: 5%;
+}
+.social-media{
+    width: 15%;
+    float: left;
+}
+.footer2 a{
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+}
+.footer2 img{
+    /*float: right;
+    margin-top: 50px;*/
+    opacity: 0.9;
+    height: 50px;
+    width: 50%;
+    /*margin-right: 1%;*/
+}
+
+.footer2 a:hover{
+    opacity: 0.6;
+}
+
+
+
+.big{
+    background-image: url("backgrounds/image13.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float: left;
+}

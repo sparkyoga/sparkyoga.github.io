@@ -1,0 +1,46 @@
+@media screen and (max-width: 1300px) {
+    body{
+        height: 1500px; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        height: 1600px; 
+    }
+}
+@media screen and (max-width: 900px) {
+    body{
+        height: 1620px; 
+    }
+}
+@media screen and (max-width: 820px) {
+    body{
+        height: 1700px; 
+    }
+    .content-3 p{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 700px) {
+    body{
+        height: 2000px; 
+    }
+}
+@media screen and (max-width: 650px) {
+    body{
+        height: 2100px; 
+    }
+}
+@media screen and (max-width: 600px) {
+    body{
+        height: 2300px; 
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        height: 1000px; 
+    }
+}

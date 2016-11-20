@@ -1,0 +1,107 @@
+@media screen and (max-width: 950px) {
+    .title a{
+        width: 15%;
+    }
+    .navigation a{
+        margin-top: 10px;
+        width: 20%;
+    }
+    .special{
+        width: 100%;
+    }
+    .special2{
+        display: none;
+    }
+    .pricing{
+        width: 85%;
+        margin-left: 15%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .pricing h1{
+        border-bottom: none;
+    }
+    .faq-content{
+        width: 85%;
+        margin-left: 15%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .faq-content h1{
+        border-bottom: none;
+    }
+    .about-content{
+        width: 85%;
+        margin-left: 15%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .about-content h1{
+        border-bottom: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navigation a{
+        margin-top: 10px;
+        width: 20%;
+    }
+    .social-media{
+        width: 16%;
+        margin-left: 42%;
+    }
+    .social-media img{
+        width: 75%;
+    }
+    .logo{
+        width: 100%;
+        height: 60px;
+    }
+    .title{
+        width: 100%;
+        height: 50px;
+        padding-bottom: 10px;
+    }
+    .title a{
+        width: 20%;
+    }
+   
+}
+@media screen and (max-width: 700px) {
+    
+}
+@media screen and (max-width: 600px) {
+    .social-media{
+        width: 45%;
+        margin-left: 22.5%;
+    }
+    .social-media a{
+        
+    }
+    .social-media img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .pricing{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .faq-content{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .about-content{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 0%;
+        border-right: none;
+    }
+    .faq-content img{
+        width: 20%; 
+        margin-top: 5px;
+    }
+    
+}
