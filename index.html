@@ -54,7 +54,26 @@
             
             <div class="content">
                 <div class="content-1">
-                    <img src="images/image10.jpg">
+                    
+                    <img class="imageSlideshow" src="images/image10.jpg">
+                    <img class="imageSlideshow" src="images/rock.jpeg">
+                    <img class="imageSlideshow" src="images/oneway.jpg">
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("imageSlideshow");
+                            for (i = 0; i < x.length; i++) {
+                               x[i].style.display = "none";  
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {myIndex = 1}    
+                            x[myIndex-1].style.display = "block";  
+                            setTimeout(carousel, 3000); // Change image every 2 seconds
+                        }
+                    </script>
+                    
                 </div>
 
                 

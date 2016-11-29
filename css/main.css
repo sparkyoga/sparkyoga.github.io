@@ -94,7 +94,11 @@
     max-width: 100%;
     margin: auto;
     display: block;
+    border-radius: 5px;
 }
+
+.imageSlideshow {display:none;}
+
 .content-2{
     float: left;
     width: 80%;
