@@ -1,0 +1,37 @@
+.price-pane{
+    float: left;
+    margin: 15px 1.5% 0px 1.5%;
+    width: 30%;
+    background-color: aqua;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+.price-pane:hover{
+    opacity: 1.0;
+}
+.price-pane a{
+    text-decoration: none;
+    color: black;
+}
+.price-pane a:hover{
+  
+}
+.price-pane h1{
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.price-pane h2{
+    margin: 0;
+    float: left;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
+.price-pane p{
+    margin: 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
